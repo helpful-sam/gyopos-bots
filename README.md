@@ -1,5 +1,5 @@
 # gyopos-bots
- Small bots for the gyopos chat
+ Small bots for the gyopos kakao chat
 
 ## Duel Bot
 ### Project Structure

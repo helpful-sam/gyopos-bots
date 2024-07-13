@@ -45,11 +45,12 @@ The format of the duel should be as follows:
 
 
 Important logics:
-    1. the only person that can say yes or no to continue or abot is the original "/duel" sender, B in the example above
-        - achieve this by writing to a temporary "listening.txt" file that will log all messages from the "/duel" message and matching the name of the original "/duel" sender (this file should be emptied, but not deleted after the duel is done or the challenge has expired)
-        - the bot will "listen" for 1 minute, after which the bot will stop "listening" and will 1) delete the file, and 2) annouce "The challenge went unanswered for 1 minute, canceling challenge..." 
-    2. others may text in between the messages, so once the duel has commenced with A and B, only listen to A and B's answer in the flow of the game
-    3. each round will have a time limit of 1 minute, the round continues until either person submits a right answer
-    4. all json/txt files will be stored in the relative directory "../data/"
+1. The only person that can say yes or no to continue or abot is the original "/duel" sender, B in the example above
+    - achieve this by writing to a temporary "listening.txt" file that will log all messages from the "/duel" message and matching the name of the original "/duel" sender (this file should be emptied, but not deleted after the duel is done or the challenge has expired)
+    - the bot will "listen" for 1 minute, after which the bot will stop "listening" and will
+        - delete the file
+        - annouce "The challenge went unanswered for 1 minute, canceling challenge..." 
+2. Others may text in between the messages, so once the duel has commenced with A and B, only listen to A and B's answer in the flow of the game
+3. Each round will have a time limit of 1 minute, the round continues until either person submits a right answer
 
 Use python with flask

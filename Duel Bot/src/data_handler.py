@@ -1,12 +1,13 @@
 import os
 import json
 import requests
+from datetime import datetime  
 
 DATA_DIR = "../data/"
 QUESTIONS_FILE = os.path.join(DATA_DIR, "questions.json")
 RECORDS_FILE = os.path.join(DATA_DIR, "records.json")
 MATCHES_FILE = os.path.join(DATA_DIR, "matches.json")
-TRIVIA_API_URL = "https://opentdb.com/api.php?amount=10&type=multiple"
+TRIVIA_API_URL = "https://opentdb.com/api.php?amount=3&type=multiple"
 
 def load_questions():
     if os.path.exists(QUESTIONS_FILE):
