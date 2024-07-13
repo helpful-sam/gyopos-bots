@@ -4,15 +4,15 @@
 ## Duel Bot
 ### Project Structure
 ### /data
-##### listening.txt
+#### listening.txt
 A temporary log file that works within the scope of each duel. All messages are logged between the initial "/duel" message and the end of the duel. The file is emptied once the duel has completed
-##### matches.json
+#### matches.json
 A log of all matches, stored in the following format:
 ```json
 "date": "mmmm dd, yyyy",
 "details": "{winner} challenged {loser} and won with a score of {scores[winner]} to {scores[loser]}"
 ```
-##### records.json
+#### records.json
 A log of user records, stored in the following format:
 ```json
 {
@@ -29,11 +29,11 @@ A log of user records, stored in the following format:
 }
 ```
 ### /src
-##### main.py
+#### main.py
 initiates the flask application
-##### bot-handler.py
+#### bot-handler.py
 handles the commands that call the bot
-##### duel-logic.py
+#### duel-logic.py
 logic and flow of duels
-##### data-handler.py
+#### data-handler.py
 handles read/write operations
