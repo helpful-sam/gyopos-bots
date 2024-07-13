@@ -4,7 +4,7 @@
 
 <h1 style="display: flex; align-items: center; justify-content: center;">
   Duel Bot
-  <img src="./Duel Bot/assets/icon/pfp1.png" alt="Icon" width="45" style="margin-left: 15px;"/>
+  <img src="./Duel Bot/assets/icon/duel-transparent.png" alt="Icon" width="45" style="margin-left: 15px;"/>
 </h1>
 
 ### Project Structure
