@@ -2,8 +2,8 @@
  Small bots for the gyopos kakao chat
 
 
-<h1 style="display: flex; align-items: center; justify-content: center;">
-  <img src="./Duel Bot/assets/icon/duel-transparent.png" alt="duel-transparet.png" width="60" style="margin-right: 15px; vertical-align: middle;"/>
+<h1 style="display: flex; align-items: center; justify-content: center; vertical-align: middle;">
+  <img src="./Duel Bot/assets/icon/duel-transparent.png" alt="duel-transparet.png" width="60" style="margin-right: 15px;"/>
   Duel Bot
 </h1>
 
