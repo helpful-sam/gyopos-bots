@@ -3,8 +3,8 @@
 
 
 <h1 style="display: flex; align-items: center; justify-content: center;">
+  <img src="./Duel Bot/assets/icon/duel-transparent.png" alt="Icon" width="60" style="margin-right: 15px;"/>
   Duel Bot
-  <img src="./Duel Bot/assets/icon/duel-transparent.png" alt="Icon" width="45" style="margin-left: 15px;"/>
 </h1>
 
 ### Project Structure
