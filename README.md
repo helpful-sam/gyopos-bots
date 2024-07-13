@@ -9,8 +9,8 @@ A temporary log file that works within the scope of each duel. All messages are 
 ##### matches.json
 A log of all matches, stored in the following format:
 ```json
-"date": datetime.now().strftime("%B %d, %Y"),
-"details": f"{winner} challenged {loser} and won with a score of {scores[winner]} to {scores[loser]}"
+"date": "mmmm dd, yyyy",
+"details": "{winner} challenged {loser} and won with a score of {scores[winner]} to {scores[loser]}"
 ```
 ##### records.json
 A log of user records, stored in the following format:
