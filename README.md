@@ -1,7 +1,5 @@
 # gyopos-bots
  Small bots for the gyopos kakao chat
-
-___
 ___
 <img src="./Duel Bot/assets/icon/duel-banner-white-transparent.png" alt="duel-transparent.png" width="250"/>
 
