@@ -6,6 +6,7 @@
   Duel Bot
   <img src="./Duel Bot/assets/icon/pfp1.png" alt="Icon" width="45" style="margin-left: 15px;"/>
 </h1>
+
 ### Project Structure
 ### /data
 #### listening.txt
