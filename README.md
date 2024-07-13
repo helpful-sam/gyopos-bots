@@ -3,7 +3,7 @@
 
 
 <h1 style="display: flex; align-items: center; justify-content: center;">
-  <img src="./Duel Bot/assets/icon/duel-transparent.png" alt="Icon" width="60" style="margin-right: 15px;"/>
+  <img src="./Duel Bot/assets/icon/duel-transparent.png" alt="duel-transparet.png" width="60" style="margin-right: 15px; vertical-align: middle;"/>
   Duel Bot
 </h1>
 
