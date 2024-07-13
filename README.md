@@ -1,7 +1,7 @@
 # gyopos-bots
  Small bots for the gyopos kakao chat
 
-## Duel Bot
+## ![Icon](./assets/icon/pfp1.png) Duel Bot
 ### Project Structure
 ### /data
 #### listening.txt
